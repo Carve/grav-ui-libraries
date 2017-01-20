@@ -1,0 +1,47 @@
+name: Ui Libraries
+version: 0.1.0
+description: Gives you the ability to include any UI Library you might need (jQuery UI, UI Kit, etc)
+icon: plug
+author:
+  name: A+ Media
+  email: hello@aplusmedia.org
+homepage: https://github.com/Carve/grav-ui-libraries
+demo: http://aplusmedia.org
+keywords: libraries, ui, ui kit
+bugs: https://github.com/Carve/grav-ui-libraries/issues
+docs: https://github.com/Carve/grav-ui-libraries/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    libraries:
+      type: list
+      style: vertical
+      classes: fancy
+      label: Libraries to Enable
+      fields:
+        .enabled:
+          type: select
+          label: Library
+          options: 
+            "jqueryui": "jQuery UI"
+            "bootstrap": "Bootstrap"
+            "uikit": "UI Kit"
+            "pure.css": "Pure.css"
+            "skeleton": "Skeleton"
+            "base": "Base"
+            "foundation": "Foundation"
+            "ink": "Ink"
+            "materialize": "Materialize"
+            "semanticui": "Semantic UI"

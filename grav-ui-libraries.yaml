@@ -1,0 +1,5 @@
+enabled: true
+libraries: 
+  enabled: []
+  libraries: ["jQuery UI", "Bootstrap", "UIKit", "Pure.css", "Skeleton", "Base", "Foundation", "HTML5 Boilerplate", "Ink", "Materialize", "Semantic UI"]
+  include_in_footer: false
