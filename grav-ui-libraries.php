@@ -42,7 +42,7 @@ class UILibrariesPlugin extends Plugin
             else if ($library['enabled'] == 'bootstrap')
                 array_push($libs, 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css','https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css','https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
             else if ($library['enabled'] == 'uikit')
-                array_push($libs, 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit.min.js','https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/css/uikit.min.css');
+                array_push($libs, 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/js/uikit.min.js','https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/css/uikit.min.css');
             else if ($library['enabled'] == 'pure.css')
                 array_push($libs, 'https://unpkg.com/purecss@0.6.2/build/pure-min.css');
             else if ($library['enabled'] == 'skeleton')
