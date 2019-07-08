@@ -39,8 +39,10 @@ class UILibrariesPlugin extends Plugin
         foreach($libraries as $library) {
             if ($library['enabled'] == 'jqueryui')
                 array_push($libs, 'http://code.jquery.com/ui/1.12.1/jquery-ui.min.js','http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css');
+            else if ($library['enabled'] == 'bootstrap3')
+                array_push($libs, 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css','https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css','https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js');
             else if ($library['enabled'] == 'bootstrap')
-                array_push($libs, 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css','https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css','https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
+                array_push($libs, 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css','https://code.jquery.com/jquery-3.2.1.slim.min.js','https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js','https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js');
             else if ($library['enabled'] == 'uikit')
                 array_push($libs, 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/js/uikit.min.js','https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/css/uikit.min.css');
             else if ($library['enabled'] == 'pure.css')
