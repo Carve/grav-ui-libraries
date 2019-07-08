@@ -44,19 +44,17 @@ class UILibrariesPlugin extends Plugin
             else if ($library['enabled'] == 'bootstrap')
                 array_push($libs, 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css','https://code.jquery.com/jquery-3.2.1.slim.min.js','https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js','https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js');
             else if ($library['enabled'] == 'uikit')
-                array_push($libs, 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/js/uikit.min.js','https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/css/uikit.min.css');
+                array_push($libs, 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-core.min.js','https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit-core.min.css');
             else if ($library['enabled'] == 'pure.css')
-                array_push($libs, 'https://unpkg.com/purecss@0.6.2/build/pure-min.css');
+                array_push($libs, 'https://unpkg.com/purecss@1.0.0/build/pure-min.css');
             else if ($library['enabled'] == 'skeleton')
                 array_push($libs, 'https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css');
             else if ($library['enabled'] == 'base')
-                array_push($libs, 'https://unpkg.com/basscss@8.0.2/css/basscss.min.css');
+                array_push($libs, 'https://cdnjs.cloudflare.com/ajax/libs/basscss/8.1.0/css/basscss.min.css');
             else if ($library['enabled'] == 'foundation')
-                array_push($libs, 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css');
-            else if ($library['enabled'] == 'ink')
-                array_push($libs, 'http://fastly.ink.sapo.pt/3.1.10/js/ink-all.js', 'http://fastly.ink.sapo.pt/3.1.10/css/ink.css');
+                array_push($libs, 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.3/js/foundation.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.3/css/foundation.min.css');
             else if ($library['enabled'] == 'materialize')
-                array_push($libs, 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css');
+                array_push($libs, 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css');
             else if ($library['enabled'] == 'semanticui')
                 array_push($libs, 'https://code.jquery.com/jquery-3.1.1.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css');
 
