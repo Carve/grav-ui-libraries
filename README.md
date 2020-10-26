@@ -1,7 +1,5 @@
 # Ui Libraries Plugin
 
-**This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
-
 The **Ui Libraries** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Gives you the ability to include any UI Library you might need (jQuery UI, UI Kit, etc)
 
 ## Installation
